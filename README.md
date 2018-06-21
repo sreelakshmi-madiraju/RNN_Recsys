@@ -1,0 +1,2 @@
+# RNN_Recsys
+We find the transaction sequence of each user sorted by transaction time.  We consider the last item in the sequence as target.  We find the vector representations of items using these sequences. (word2vec.py) We feed one-hot vectors of item features to get dense embeddings and concatenate them with vectors from transactions. (word2vec_extraction.py) Prediction is done using LSTM model.
